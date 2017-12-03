@@ -6,7 +6,9 @@
     <DebugType>portable</DebugType>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Expecto.fs" />
+    <Compile Include="Domain.fs" />
+    <Compile Include="Tests.fs" />
+    <Compile Include="Main.fs" />
     <None Include="App.config" />
   </ItemGroup>
   <Import Project="..\..\.paket\Paket.Restore.targets" />
